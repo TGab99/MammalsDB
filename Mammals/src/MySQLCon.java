@@ -2,6 +2,7 @@ import java.sql.*;
 
 public class MySQLCon{
     private static MySQLCon uniqueInstance = null;
+    private Boolean con = false;
 
     private MySQLCon(){}
 
@@ -13,21 +14,32 @@ public class MySQLCon{
         return uniqueInstance;
     }
 
-    public Boolean getConnection(){
-        Boolean con = false;
-
+    public Connection getConnection()
+    {
+        Connection conn = null;
         try{
             Class.forName("com.mysql.jdbc.Driver");
 
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mammals?autoReconnect=true&useSSL=false","root","");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mammals?autoReconnect=true&useSSL=false","root","");
 
-            Statement stmt = conn.createStatement();
             con = true;
-            conn.close();
+
         }catch(Exception e){
             System.out.println(e);
         }
 
+        return conn;
+    }
+
+    public Boolean addBoolean(){
         return con;
+    }
+
+    public void databaseClose(){
+        try{
+            getConnection().close();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
     }
 }
