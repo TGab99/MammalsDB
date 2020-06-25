@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="83671591-cdf8-4bd4-8156-401565515333" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mammals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategyMammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyMammals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wildcats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wildcats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wolves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wolves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mammals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mammals.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mammals/Mammals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mammals/Mammals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mammals/StrategyMammals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mammals/StrategyMammals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mammals/Wildcats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mammals/Wildcats.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -43,15 +42,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WildcatsTest.numbersOfSubspecies">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Mammals" />
@@ -59,8 +74,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MySQLConTest.getConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mammals" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MySQLConTest" />
+      <option name="METHOD_NAME" value="getConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WildcatsTest.numbersOfSubspecies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mammals" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WildcatsTest" />
+      <option name="METHOD_NAME" value="numbersOfSubspecies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WolvesTest.numbersInDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mammals" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WolvesTest" />
+      <option name="METHOD_NAME" value="numbersInDB" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WildcatsTest.numbersOfSubspecies" />
+        <item itemvalue="JUnit.WolvesTest.numbersInDB" />
+        <item itemvalue="JUnit.MySQLConTest.getConnection" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -82,6 +130,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593085691216">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1593085691216" />
     <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1593071681773">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -90,22 +142,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="503" y="162" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1592999280184" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1593076208066">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1593086419863">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593076208066" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1593076208066">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593086419863" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1593086419862">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593076208066" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1593076208065">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593086419862" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1593086419862">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593076208065" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1593076208066">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593086419862" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1593086419863">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593076208066" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593086419863" />
     <state x="349" y="163" key="IDE.errors.dialog" timestamp="1592999945816">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -118,6 +170,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="477" y="245" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1593065944119" />
+    <state x="498" y="319" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593085595934">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="498" y="319" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1593085595934" />
+    <state x="540" y="137" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593086273683">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="540" y="137" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1593086273683" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1593014418353">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
