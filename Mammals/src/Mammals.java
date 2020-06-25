@@ -1,4 +1,5 @@
 import java.sql.Connection;
+import java.util.List;
 
 public class Mammals {
     private StrategyMammals _mammals;

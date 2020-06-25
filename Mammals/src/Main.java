@@ -6,66 +6,13 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 import java.sql.*;
 import javax.swing.*;
+import javax.swing.plaf.LabelUI;
 
 public class Main {
+    public static JTextArea specie = new JTextArea();
+    public static JTextArea addText = new JTextArea("Give a species!");
+
     public static void main(String args[]){
-
-        /*JFrame frame = new JFrame("Mammals Database");
-        frame.setSize(500,600);
-
-        JPanel panel = new JPanel();
-        panel.setLayout(new FlowLayout());
-
-        JTextArea textArea = new JTextArea();
-        MySQLCon mysqlc = MySQLCon.getInstance();
-        Connection conn = mysqlc.getConnection();
-
-        if(mysqlc.addBoolean() == true)
-            textArea.setText("Success connection!");
-        else
-            textArea.setText("No success connection!");
-        textArea.setEditable(false);
-
-        JSeparator sep1 = new JSeparator(JSeparator.VERTICAL);
-
-        JTextArea addText = new JTextArea("Give a species!");
-        addText.setEditable(true);
-        addText.setSize(100,10);
-        JButton add = new JButton("Add");
-        add.setSize(10,10);
-
-        JTextArea specie = new JTextArea();
-        specie.setColumns(10);
-        JTextField numbersindb = new JTextField();
-        numbersindb.setColumns(10);
-        JTextField numbersofsubspecies = new JTextField();
-        numbersofsubspecies.setColumns(10);
-        add.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if(addText.getText().toLowerCase() == "wolf"){
-                    Mammals mammal = new Mammals();
-                    mammal.MammalsChoice(new Wolves());
-                    String s = mammal.specie();
-                    specie.setText(s);
-                    numbersindb.setText(" " + mammal.numbersInDB(conn));
-                    numbersofsubspecies.setText(" " + mammal.numbersofSubspecies(conn));
-                }
-            }
-        });
-
-        panel.add(textArea);
-        panel.add(sep1);
-        panel.add(addText);
-        panel.add(add);
-        panel.add(specie);
-        panel.add(numbersindb);
-        panel.add(numbersofsubspecies);
-
-        frame.add(panel);
-        frame.setLocationRelativeTo(null);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);*/
 
         MySQLCon mysqlc = MySQLCon.getInstance();
         mysqlc.getConnection();
@@ -84,6 +31,20 @@ public class Main {
         mammal2.MammalsChoice(new Dogs());
         System.out.println(mammal2.specie());
         System.out.println(mammal2.numbersInDB(mysqlc.getConnection()));
+        System.out.println(mammal2.numbersOfSubspecies(mysqlc.getConnection()));
+
+        Mammals mammal3 = new Mammals();
+        mammal3.MammalsChoice(new Cats());
+        System.out.println(mammal3.specie());
+        System.out.println(mammal3.numbersInDB(mysqlc.getConnection()));
+        System.out.println(mammal3.numbersOfSubspecies(mysqlc.getConnection()));
+
+        Mammals mammal4 = new Mammals();
+        mammal4.MammalsChoice(new Wildcats());
+        System.out.println(mammal4.specie());
+        System.out.println(mammal4.numbersInDB(mysqlc.getConnection()));
+        System.out.println(mammal4.numbersOfSubspecies(mysqlc.getConnection()));
+
         mysqlc.databaseClose();
     }
 }

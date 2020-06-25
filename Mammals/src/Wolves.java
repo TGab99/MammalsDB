@@ -40,7 +40,7 @@ public class Wolves extends StrategyMammals{
         try {
             stmt = conn.createStatement();
 
-            String query = "select count(subspecies) from wolves";
+            String query = "select count(*) from(select distinct subspecies from wolves) wolves";
 
             ResultSet rs = stmt.executeQuery(query);
 

@@ -2,6 +2,8 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Wildcats extends StrategyMammals{
     @Override
@@ -36,7 +38,7 @@ public class Wildcats extends StrategyMammals{
         try {
             stmt = conn.createStatement();
 
-            String query = "select count(subspecies) from wildcats";
+            String query = "select count(*) from(select distinct subspecies from wildcats) wildcats";
 
             ResultSet rs = stmt.executeQuery(query);
 
