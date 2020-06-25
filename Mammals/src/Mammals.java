@@ -19,4 +19,8 @@ public class Mammals {
     public int numbersOfSubspecies(Connection conn){
         return this._mammals.numbersOfSubspecies(conn);
     }
+
+    public List<String> addData(Connection conn){
+            return this._mammals.addData(conn);
+    }
 }

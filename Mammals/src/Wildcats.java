@@ -51,4 +51,33 @@ public class Wildcats extends StrategyMammals{
 
         return count;
     }
+
+    @Override
+    public List<String> addData(Connection conn){
+        List<String> data = new ArrayList<String>();
+
+        try {
+            Statement stmt = conn.createStatement();
+            String query = "select * from wildcats ;";
+
+            ResultSet rs = stmt.executeQuery(query);
+            while (rs.next()) {
+                String id = rs.getObject(1).toString();
+                String subspecies = rs.getObject(2).toString();
+                String age = rs.getObject(3).toString();
+                String gender = rs.getObject(4).toString();
+                String bodyLength = rs.getObject(5).toString();
+                String height = rs.getObject(6).toString();
+                String weight = rs.getObject(7).toString();
+                String s = id+ " " + subspecies + " " + age + " " + gender + " " + bodyLength + " " + height + " " + weight;
+
+                data.add(s);
+
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return data;
+    }
 }

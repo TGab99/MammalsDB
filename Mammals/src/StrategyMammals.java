@@ -8,4 +8,6 @@ public abstract class StrategyMammals {
     public abstract int numbersInDB(Connection conn);
 
     public abstract int numbersOfSubspecies(Connection conn);
+
+    public abstract  List<String> addData(Connection conn);
 }
