@@ -31,7 +31,7 @@ public class MySQLCon{
         return conn;
     }
 
-    public Boolean addBoolean(){
+    public Boolean addConnectionBoolean(){
         return con;
     }
 

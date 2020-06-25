@@ -3,22 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="83671591-cdf8-4bd4-8156-401565515333" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mammals/Cats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mammals/Cats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mammals/Dogs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mammals/Dogs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/WildcatsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WildcatsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/WolvesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WolvesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Mammals/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mammals/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mammals/Mammals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mammals/Mammals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mammals/StrategyMammals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mammals/StrategyMammals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mammals/Wildcats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mammals/Wildcats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mammals/WildcatsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mammals/Wolves.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mammals/Wolves.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mammals/WolvesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mammals/MySQLCon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mammals/MySQLCon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dogs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mammals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategyMammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyMammals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wildcats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wildcats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wolves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wolves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MySQLCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySQLCon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +69,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\IdeaProjects\MammalsDB\MammalsDB\Mammals\src" />
       <recent name="C:\Users\Acer\IdeaProjects\MammalsDB\MammalsDB\Mammals\Test" />
     </key>
   </component>
@@ -85,6 +77,15 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Mammals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySQLConTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mammals" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MySQLConTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MySQLConTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.WildcatsTest.numbersOfSubspecies" />
         <item itemvalue="JUnit.WolvesTest.numbersInDB" />
@@ -145,10 +147,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593085691216">
+    <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593090539365">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1593085691216" />
+    <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1593090539365" />
     <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1593071681773">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -157,22 +159,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="503" y="162" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1592999280184" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1593089394245">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1593090588798">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593089394245" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1593089394244">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593090588798" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1593090588798">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593089394244" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1593089394244">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593090588798" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1593090588798">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593089394244" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1593089394244">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593090588798" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1593090588798">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593089394244" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593090588798" />
     <state x="349" y="163" key="IDE.errors.dialog" timestamp="1592999945816">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -189,10 +191,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="498" y="319" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1593085595934" />
-    <state x="540" y="137" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593086273683">
+    <state x="540" y="137" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593090137206">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="540" y="137" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1593086273683" />
+    <state x="540" y="137" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1593090137206" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1593014418353">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

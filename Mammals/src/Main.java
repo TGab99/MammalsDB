@@ -17,7 +17,7 @@ public class Main {
 
         MySQLCon mysqlc = MySQLCon.getInstance();
         mysqlc.getConnection();
-        if(mysqlc.addBoolean() == true)
+        if(mysqlc.addConnectionBoolean() == true)
             System.out.println("Success connection!");
         else
             System.out.println("No success connection!");
@@ -63,7 +63,7 @@ public class Main {
         }
 
         System.out.println();
-        
+
         Mammals mammal4 = new Mammals();
         mammal4.MammalsChoice(new Wildcats());
         System.out.println("Specie: " + mammal4.specie());
